@@ -80,10 +80,11 @@
 
 .footer .fa-chevron-circle-up {
 	color: #000;
-	position: absolute;
-	top: -6px;
 	cursor: pointer;
-	left: 50%;
-	transform: translate(-6px, -50%);
+	text-align: center;
+}
+.footer .container {
+	text-align: center;
+  transform: translateY(-30px);
 }
 /*End footer */
