@@ -1,11 +1,30 @@
 /*Starting landing page section*/
-.landingPage img {
+.landingPage {
 	width: 100%;
 	height: 100vh;
+}
+.landingPage .img {
+	width: 100%;
+	height: 100%;
+	background: url("../imgs/LandingPageImage.jpg") no-repeat center;
 	background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	-webkit-background-size: cover;
+}
+@media (max-width: 767px) {
+	.landingPage {
+		height: 60vh;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1999px) {
+	.landingPage {
+		height: 80vh;
+	}
+}
+@media (min-width: 1200px) {
+	.landingPage {
+		height: 100vh;
+	}
 }
 /*Ending landing page section*/
 /*Start contactUs section*/
@@ -40,7 +59,7 @@
 	font-weight: 300;
 	margin-bottom: 40px;
 	margin-top: 10px;
-	color: #996f86;
+	color: #000;
 }
 
 /*End contactUs section*/
@@ -61,7 +80,7 @@
 }
 .form .btn {
 	margin: 20px auto;
-	background-color: #2a4c55;
+	background-color: #1b3163;
 	color: #fff;
 	font-weight: bold;
 	font-size: 15px;
@@ -71,14 +90,14 @@
 
 /*Start footer */
 .footer {
-	background-color: #d6c2b9;
+	background-color: #d0d2d1;
 	height: 140px;
 	width: 100%;
 	position: relative;
 }
 
 .footer .fa-chevron-circle-up {
-	color: #000;
+	color: #1b3163;
 	cursor: pointer;
 	text-align: center;
 }
